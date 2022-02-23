@@ -1,0 +1,25 @@
+using System;
+
+namespace studenttask1
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine($"Please write the name");
+            string a = Console.ReadLine();
+            Console.WriteLine($"Please write the surname");
+            string b = Console.ReadLine();
+            string x = a + " " + b;
+            Console.WriteLine("Please write group name");
+            string c = Console.ReadLine();
+            Console.WriteLine($"Please write age");
+            string d = Console.ReadLine();
+
+
+
+
+
+        }
+    }
+}
